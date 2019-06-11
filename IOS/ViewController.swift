@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
+        tableView.tableFooterView = UIView()
         super.viewDidLoad()
         downloadJson()
         tableView.tableFooterView = UIView()
