@@ -39,7 +39,7 @@ class ViewController: UIViewController, UITableViewDataSource {
                 print("something wrong after downloaded")
             }
         }.resume()
-        
+        print("something wrong after downloaded")
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
