@@ -13,6 +13,8 @@
 		04573C6622AD766400DE5155 /* IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04573C6422AD766300DE5155 /* IOS.xcdatamodeld */; };
 		04573C6822AD766500DE5155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04573C6722AD766500DE5155 /* Assets.xcassets */; };
 		04573C6B22AD766500DE5155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04573C6922AD766500DE5155 /* LaunchScreen.storyboard */; };
+		04BE0F9B22AEC6DF00F55041 /* Dador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE0F9A22AEC6DF00F55041 /* Dador.swift */; };
+		04BE0F9D22AEE60500F55041 /* DadorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE0F9C22AEE60500F55041 /* DadorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04573C6722AD766500DE5155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04573C6A22AD766500DE5155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04573C6C22AD766500DE5155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BE0F9A22AEC6DF00F55041 /* Dador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dador.swift; sourceTree = "<group>"; };
+		04BE0F9C22AEE60500F55041 /* DadorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				04573C6922AD766500DE5155 /* LaunchScreen.storyboard */,
 				04573C6C22AD766500DE5155 /* Info.plist */,
 				04573C6422AD766300DE5155 /* IOS.xcdatamodeld */,
+				04BE0F9A22AEC6DF00F55041 /* Dador.swift */,
+				04BE0F9C22AEE60500F55041 /* DadorCell.swift */,
 			);
 			path = IOS;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				04573C6022AD766300DE5155 /* ViewController.swift in Sources */,
 				04573C6622AD766400DE5155 /* IOS.xcdatamodeld in Sources */,
 				04573C5E22AD766300DE5155 /* AppDelegate.swift in Sources */,
+				04BE0F9D22AEE60500F55041 /* DadorCell.swift in Sources */,
+				04BE0F9B22AEC6DF00F55041 /* Dador.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
